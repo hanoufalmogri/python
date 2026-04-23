@@ -1,0 +1,1045 @@
+2026-04-21 14:04:47,058:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-04-21 14:04:47,058:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-04-21 14:04:47,058:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-04-21 14:04:47,058:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-04-21 14:12:12,595:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-04-21 14:12:12,595:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-04-21 14:12:12,595:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-04-21 14:12:12,595:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-04-21 14:12:12,895:INFO:PyCaret RegressionExperiment
+2026-04-21 14:12:12,895:INFO:Logging name: reg-default-name
+2026-04-21 14:12:12,895:INFO:ML Usecase: MLUsecase.REGRESSION
+2026-04-21 14:12:12,895:INFO:version 3.3.2
+2026-04-21 14:12:12,895:INFO:Initializing setup()
+2026-04-21 14:12:12,895:INFO:self.USI: 941b
+2026-04-21 14:12:12,896:INFO:self._variable_keys: {'y_test', 'fold_groups_param', 'transform_target_param', 'data', '_available_plots', '_ml_usecase', 'X_train', 'y_train', 'exp_name_log', 'memory', 'logging_param', 'idx', 'fold_shuffle_param', 'log_plots_param', 'gpu_n_jobs_param', 'html_param', 'USI', 'n_jobs_param', 'seed', 'y', 'exp_id', 'gpu_param', 'target_param', 'X_test', 'fold_generator', 'X', 'pipeline'}
+2026-04-21 14:12:12,896:INFO:Checking environment
+2026-04-21 14:12:12,896:INFO:python_version: 3.11.15
+2026-04-21 14:12:12,896:INFO:python_build: ('main', 'Mar 25 2026 03:30:28')
+2026-04-21 14:12:12,896:INFO:machine: x86_64
+2026-04-21 14:12:12,896:INFO:platform: macOS-26.3-x86_64-i386-64bit
+2026-04-21 14:12:12,896:INFO:Memory: svmem(total=17179869184, available=4287770624, percent=75.0, used=8426323968, free=111472640, active=4040675328, inactive=4089339904, wired=4385648640)
+2026-04-21 14:12:12,897:INFO:Physical Core: 6
+2026-04-21 14:12:12,897:INFO:Logical Core: 12
+2026-04-21 14:12:12,897:INFO:Checking libraries
+2026-04-21 14:12:12,897:INFO:System:
+2026-04-21 14:12:12,897:INFO:    python: 3.11.15 (main, Mar 25 2026, 03:30:28) [Clang 22.1.1 ]
+2026-04-21 14:12:12,897:INFO:executable: /Users/alhanoufalmogri/python-book/.venv-pycaret311/bin/python
+2026-04-21 14:12:12,897:INFO:   machine: macOS-26.3-x86_64-i386-64bit
+2026-04-21 14:12:12,897:INFO:PyCaret required dependencies:
+2026-04-21 14:12:12,899:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-04-21 14:13:03,656:INFO:PyCaret RegressionExperiment
+2026-04-21 14:13:03,657:INFO:Logging name: reg-default-name
+2026-04-21 14:13:03,657:INFO:ML Usecase: MLUsecase.REGRESSION
+2026-04-21 14:13:03,657:INFO:version 3.3.2
+2026-04-21 14:13:03,657:INFO:Initializing setup()
+2026-04-21 14:13:03,657:INFO:self.USI: f9da
+2026-04-21 14:13:03,657:INFO:self._variable_keys: {'y_test', 'fold_groups_param', 'transform_target_param', 'data', '_available_plots', '_ml_usecase', 'X_train', 'y_train', 'exp_name_log', 'memory', 'logging_param', 'idx', 'fold_shuffle_param', 'log_plots_param', 'gpu_n_jobs_param', 'html_param', 'USI', 'n_jobs_param', 'seed', 'y', 'exp_id', 'gpu_param', 'target_param', 'X_test', 'fold_generator', 'X', 'pipeline'}
+2026-04-21 14:13:03,657:INFO:Checking environment
+2026-04-21 14:13:03,657:INFO:python_version: 3.11.15
+2026-04-21 14:13:03,657:INFO:python_build: ('main', 'Mar 25 2026 03:30:28')
+2026-04-21 14:13:03,657:INFO:machine: x86_64
+2026-04-21 14:13:03,657:INFO:platform: macOS-26.3-x86_64-i386-64bit
+2026-04-21 14:13:03,657:INFO:Memory: svmem(total=17179869184, available=7224356864, percent=57.9, used=8971403264, free=2494746624, active=4734615552, inactive=4694786048, wired=4236787712)
+2026-04-21 14:13:03,657:INFO:Physical Core: 6
+2026-04-21 14:13:03,658:INFO:Logical Core: 12
+2026-04-21 14:13:03,658:INFO:Checking libraries
+2026-04-21 14:13:03,658:INFO:System:
+2026-04-21 14:13:03,658:INFO:    python: 3.11.15 (main, Mar 25 2026, 03:30:28) [Clang 22.1.1 ]
+2026-04-21 14:13:03,658:INFO:executable: /Users/alhanoufalmogri/python-book/.venv-pycaret311/bin/python
+2026-04-21 14:13:03,658:INFO:   machine: macOS-26.3-x86_64-i386-64bit
+2026-04-21 14:13:03,658:INFO:PyCaret required dependencies:
+2026-04-23 10:42:19,258:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-04-23 10:42:19,259:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-04-23 10:42:19,259:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-04-23 10:42:19,259:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-04-23 10:42:24,463:INFO:PyCaret RegressionExperiment
+2026-04-23 10:42:24,464:INFO:Logging name: reg-default-name
+2026-04-23 10:42:24,464:INFO:ML Usecase: MLUsecase.REGRESSION
+2026-04-23 10:42:24,464:INFO:version 3.3.2
+2026-04-23 10:42:24,464:INFO:Initializing setup()
+2026-04-23 10:42:24,464:INFO:self.USI: 9be9
+2026-04-23 10:42:24,464:INFO:self._variable_keys: {'memory', 'logging_param', 'log_plots_param', 'y_train', 'seed', 'data', 'y_test', 'target_param', 'exp_id', 'X_train', 'gpu_param', 'USI', 'fold_groups_param', 'y', 'n_jobs_param', 'exp_name_log', 'fold_generator', 'idx', 'pipeline', 'html_param', 'X', 'fold_shuffle_param', '_available_plots', 'gpu_n_jobs_param', '_ml_usecase', 'transform_target_param', 'X_test'}
+2026-04-23 10:42:24,464:INFO:Checking environment
+2026-04-23 10:42:24,465:INFO:python_version: 3.11.15
+2026-04-23 10:42:24,465:INFO:python_build: ('main', 'Mar 25 2026 03:30:28')
+2026-04-23 10:42:24,465:INFO:machine: x86_64
+2026-04-23 10:42:24,465:INFO:platform: macOS-26.3-x86_64-i386-64bit
+2026-04-23 10:42:24,465:INFO:Memory: svmem(total=17179869184, available=5720174592, percent=66.7, used=9769967616, free=164962304, active=5589020672, inactive=5444366336, wired=4180946944)
+2026-04-23 10:42:24,465:INFO:Physical Core: 6
+2026-04-23 10:42:24,465:INFO:Logical Core: 12
+2026-04-23 10:42:24,465:INFO:Checking libraries
+2026-04-23 10:42:24,465:INFO:System:
+2026-04-23 10:42:24,465:INFO:    python: 3.11.15 (main, Mar 25 2026, 03:30:28) [Clang 22.1.1 ]
+2026-04-23 10:42:24,466:INFO:executable: /Users/alhanoufalmogri/python-book/.venv-pycaret311/bin/python
+2026-04-23 10:42:24,466:INFO:   machine: macOS-26.3-x86_64-i386-64bit
+2026-04-23 10:42:24,466:INFO:PyCaret required dependencies:
+2026-04-23 10:42:24,468:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-04-23 11:10:33,877:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-04-23 11:10:33,877:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-04-23 11:10:33,877:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-04-23 11:10:33,877:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-04-23 11:11:05,644:INFO:PyCaret RegressionExperiment
+2026-04-23 11:11:05,644:INFO:Logging name: reg-default-name
+2026-04-23 11:11:05,644:INFO:ML Usecase: MLUsecase.REGRESSION
+2026-04-23 11:11:05,644:INFO:version 3.3.2
+2026-04-23 11:11:05,644:INFO:Initializing setup()
+2026-04-23 11:11:05,644:INFO:self.USI: 5bf2
+2026-04-23 11:11:05,644:INFO:self._variable_keys: {'X_train', 'gpu_n_jobs_param', 'idx', 'y_test', 'target_param', 'transform_target_param', 'data', 'y_train', 'fold_generator', 'y', 'X_test', 'fold_groups_param', 'seed', 'exp_id', 'exp_name_log', 'memory', 'logging_param', 'html_param', 'n_jobs_param', '_available_plots', 'X', 'pipeline', 'fold_shuffle_param', '_ml_usecase', 'log_plots_param', 'gpu_param', 'USI'}
+2026-04-23 11:11:05,645:INFO:Checking environment
+2026-04-23 11:11:05,645:INFO:python_version: 3.11.15
+2026-04-23 11:11:05,645:INFO:python_build: ('main', 'Mar 25 2026 03:30:28')
+2026-04-23 11:11:05,645:INFO:machine: x86_64
+2026-04-23 11:11:05,645:INFO:platform: macOS-26.3-x86_64-i386-64bit
+2026-04-23 11:11:05,645:INFO:Memory: svmem(total=17179869184, available=5915340800, percent=65.6, used=10258796544, free=16310272, active=5902446592, inactive=5897560064, wired=4356349952)
+2026-04-23 11:11:05,645:INFO:Physical Core: 6
+2026-04-23 11:11:05,645:INFO:Logical Core: 12
+2026-04-23 11:11:05,645:INFO:Checking libraries
+2026-04-23 11:11:05,645:INFO:System:
+2026-04-23 11:11:05,646:INFO:    python: 3.11.15 (main, Mar 25 2026, 03:30:28) [Clang 22.1.1 ]
+2026-04-23 11:11:05,646:INFO:executable: /Users/alhanoufalmogri/python-book/.venv-pycaret311/bin/python
+2026-04-23 11:11:05,646:INFO:   machine: macOS-26.3-x86_64-i386-64bit
+2026-04-23 11:11:05,646:INFO:PyCaret required dependencies:
+2026-04-23 11:11:05,647:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-04-23 11:11:05,660:INFO:                 pip: Not installed
+2026-04-23 11:11:05,660:INFO:          setuptools: 82.0.1
+2026-04-23 11:11:05,660:INFO:             pycaret: 3.3.2
+2026-04-23 11:11:05,660:INFO:             IPython: 9.10.1
+2026-04-23 11:11:05,660:INFO:          ipywidgets: 8.1.8
+2026-04-23 11:11:05,660:INFO:                tqdm: 4.67.3
+2026-04-23 11:11:05,660:INFO:               numpy: 1.26.4
+2026-04-23 11:11:05,660:INFO:              pandas: 2.1.4
+2026-04-23 11:11:05,660:INFO:              jinja2: 3.1.6
+2026-04-23 11:11:05,660:INFO:               scipy: 1.11.4
+2026-04-23 11:11:05,660:INFO:              joblib: 1.3.2
+2026-04-23 11:11:05,661:INFO:             sklearn: 1.4.2
+2026-04-23 11:11:05,661:INFO:                pyod: 3.2.1
+2026-04-23 11:11:05,661:INFO:            imblearn: 0.14.1
+2026-04-23 11:11:05,661:INFO:   category_encoders: 2.7.0
+2026-04-23 11:11:05,661:INFO:            lightgbm: Not installed
+2026-04-23 11:11:05,661:INFO:               numba: 0.60.0
+2026-04-23 11:11:05,661:INFO:            requests: 2.33.1
+2026-04-23 11:11:05,661:INFO:          matplotlib: 3.7.5
+2026-04-23 11:11:05,661:INFO:          scikitplot: 0.3.7
+2026-04-23 11:11:05,661:INFO:         yellowbrick: 1.5
+2026-04-23 11:11:05,661:INFO:              plotly: 6.7.0
+2026-04-23 11:11:05,661:INFO:    plotly-resampler: Not installed
+2026-04-23 11:11:05,661:INFO:             kaleido: 1.2.0
+2026-04-23 11:11:05,661:INFO:           schemdraw: 0.15
+2026-04-23 11:11:05,661:INFO:         statsmodels: 0.14.6
+2026-04-23 11:11:05,662:INFO:              sktime: 0.26.0
+2026-04-23 11:11:05,662:INFO:               tbats: 1.1.3
+2026-04-23 11:11:05,662:INFO:            pmdarima: 2.0.4
+2026-04-23 11:11:05,662:INFO:              psutil: 7.2.2
+2026-04-23 11:11:05,662:INFO:          markupsafe: 3.0.3
+2026-04-23 11:11:05,662:INFO:             pickle5: Not installed
+2026-04-23 11:11:05,662:INFO:         cloudpickle: 3.1.2
+2026-04-23 11:11:05,662:INFO:         deprecation: 2.1.0
+2026-04-23 11:11:05,662:INFO:              xxhash: 3.6.0
+2026-04-23 11:11:05,663:INFO:           wurlitzer: 3.1.1
+2026-04-23 11:11:05,663:INFO:PyCaret optional dependencies:
+2026-04-23 11:11:05,686:INFO:                shap: Not installed
+2026-04-23 11:11:05,686:INFO:           interpret: Not installed
+2026-04-23 11:11:05,686:INFO:                umap: Not installed
+2026-04-23 11:11:05,686:INFO:     ydata_profiling: Not installed
+2026-04-23 11:11:05,686:INFO:  explainerdashboard: Not installed
+2026-04-23 11:11:05,686:INFO:             autoviz: Not installed
+2026-04-23 11:11:05,686:INFO:           fairlearn: Not installed
+2026-04-23 11:11:05,686:INFO:          deepchecks: Not installed
+2026-04-23 11:11:05,686:INFO:             xgboost: Not installed
+2026-04-23 11:11:05,686:INFO:            catboost: Not installed
+2026-04-23 11:11:05,686:INFO:              kmodes: Not installed
+2026-04-23 11:11:05,686:INFO:             mlxtend: Not installed
+2026-04-23 11:11:05,686:INFO:       statsforecast: Not installed
+2026-04-23 11:11:05,686:INFO:        tune_sklearn: Not installed
+2026-04-23 11:11:05,686:INFO:                 ray: Not installed
+2026-04-23 11:11:05,686:INFO:            hyperopt: Not installed
+2026-04-23 11:11:05,687:INFO:              optuna: Not installed
+2026-04-23 11:11:05,687:INFO:               skopt: Not installed
+2026-04-23 11:11:05,687:INFO:              mlflow: Not installed
+2026-04-23 11:11:05,687:INFO:              gradio: Not installed
+2026-04-23 11:11:05,687:INFO:             fastapi: Not installed
+2026-04-23 11:11:05,687:INFO:             uvicorn: Not installed
+2026-04-23 11:11:05,687:INFO:              m2cgen: Not installed
+2026-04-23 11:11:05,687:INFO:           evidently: Not installed
+2026-04-23 11:11:05,687:INFO:               fugue: Not installed
+2026-04-23 11:11:05,687:INFO:           streamlit: Not installed
+2026-04-23 11:11:05,687:INFO:             prophet: Not installed
+2026-04-23 11:11:05,687:INFO:None
+2026-04-23 11:11:05,687:INFO:Set up data.
+2026-04-23 11:11:05,708:INFO:Set up folding strategy.
+2026-04-23 11:11:05,708:INFO:Set up train/test split.
+2026-04-23 11:11:07,345:INFO:Set up index.
+2026-04-23 11:11:07,347:INFO:Assigning column types.
+2026-04-23 11:11:07,364:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2026-04-23 11:11:07,364:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2026-04-23 11:11:07,371:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2026-04-23 11:11:07,376:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2026-04-23 11:11:07,469:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-04-23 11:11:07,533:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-04-23 11:11:07,534:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:07,540:WARNING:LightGBM is unavailable and will be skipped: dlopen(/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib, 0x0006): Library not loaded: @rpath/libomp.dylib
+  Referenced from: <8FC36893-94B8-343C-9D9F-4CCBFE81B89B> /Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib
+  Reason: tried: '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/Users/alhanoufalmogri/.local/share/uv/python/cpython-3.11.15-macos-x86_64-none/lib/libomp.dylib' (no such file), '/usr/local/lib/libomp.dylib' (no such file), '/usr/lib/libomp.dylib' (no such file, not in dyld cache)
+2026-04-23 11:11:07,540:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:07,541:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2026-04-23 11:11:07,549:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2026-04-23 11:11:07,556:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2026-04-23 11:11:07,640:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-04-23 11:11:07,704:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-04-23 11:11:07,705:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:07,775:WARNING:LightGBM is unavailable and will be skipped: dlopen(/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib, 0x0006): Library not loaded: @rpath/libomp.dylib
+  Referenced from: <8FC36893-94B8-343C-9D9F-4CCBFE81B89B> /Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib
+  Reason: tried: '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/Users/alhanoufalmogri/.local/share/uv/python/cpython-3.11.15-macos-x86_64-none/lib/libomp.dylib' (no such file), '/usr/local/lib/libomp.dylib' (no such file), '/usr/lib/libomp.dylib' (no such file, not in dyld cache)
+2026-04-23 11:11:07,775:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:07,776:INFO:Engine successfully changes for model 'lasso' to 'sklearn'.
+2026-04-23 11:11:07,814:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2026-04-23 11:11:07,825:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2026-04-23 11:11:07,951:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-04-23 11:11:08,014:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-04-23 11:11:08,016:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:08,023:WARNING:LightGBM is unavailable and will be skipped: dlopen(/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib, 0x0006): Library not loaded: @rpath/libomp.dylib
+  Referenced from: <8FC36893-94B8-343C-9D9F-4CCBFE81B89B> /Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib
+  Reason: tried: '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/Users/alhanoufalmogri/.local/share/uv/python/cpython-3.11.15-macos-x86_64-none/lib/libomp.dylib' (no such file), '/usr/local/lib/libomp.dylib' (no such file), '/usr/lib/libomp.dylib' (no such file, not in dyld cache)
+2026-04-23 11:11:08,025:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:08,032:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2026-04-23 11:11:08,040:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2026-04-23 11:11:08,163:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-04-23 11:11:08,237:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-04-23 11:11:08,238:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:08,242:WARNING:LightGBM is unavailable and will be skipped: dlopen(/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib, 0x0006): Library not loaded: @rpath/libomp.dylib
+  Referenced from: <8FC36893-94B8-343C-9D9F-4CCBFE81B89B> /Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib
+  Reason: tried: '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/Users/alhanoufalmogri/.local/share/uv/python/cpython-3.11.15-macos-x86_64-none/lib/libomp.dylib' (no such file), '/usr/local/lib/libomp.dylib' (no such file), '/usr/lib/libomp.dylib' (no such file, not in dyld cache)
+2026-04-23 11:11:08,242:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:08,242:INFO:Engine successfully changes for model 'ridge' to 'sklearn'.
+2026-04-23 11:11:08,259:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2026-04-23 11:11:08,356:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-04-23 11:11:08,417:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-04-23 11:11:08,418:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:08,422:WARNING:LightGBM is unavailable and will be skipped: dlopen(/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib, 0x0006): Library not loaded: @rpath/libomp.dylib
+  Referenced from: <8FC36893-94B8-343C-9D9F-4CCBFE81B89B> /Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib
+  Reason: tried: '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/Users/alhanoufalmogri/.local/share/uv/python/cpython-3.11.15-macos-x86_64-none/lib/libomp.dylib' (no such file), '/usr/local/lib/libomp.dylib' (no such file), '/usr/lib/libomp.dylib' (no such file, not in dyld cache)
+2026-04-23 11:11:08,423:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:08,435:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2026-04-23 11:11:08,518:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-04-23 11:11:08,578:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-04-23 11:11:08,579:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:08,583:WARNING:LightGBM is unavailable and will be skipped: dlopen(/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib, 0x0006): Library not loaded: @rpath/libomp.dylib
+  Referenced from: <8FC36893-94B8-343C-9D9F-4CCBFE81B89B> /Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib
+  Reason: tried: '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/Users/alhanoufalmogri/.local/share/uv/python/cpython-3.11.15-macos-x86_64-none/lib/libomp.dylib' (no such file), '/usr/local/lib/libomp.dylib' (no such file), '/usr/lib/libomp.dylib' (no such file, not in dyld cache)
+2026-04-23 11:11:08,584:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:08,585:INFO:Engine successfully changes for model 'en' to 'sklearn'.
+2026-04-23 11:11:08,744:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-04-23 11:11:08,818:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-04-23 11:11:08,819:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:08,823:WARNING:LightGBM is unavailable and will be skipped: dlopen(/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib, 0x0006): Library not loaded: @rpath/libomp.dylib
+  Referenced from: <8FC36893-94B8-343C-9D9F-4CCBFE81B89B> /Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib
+  Reason: tried: '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/Users/alhanoufalmogri/.local/share/uv/python/cpython-3.11.15-macos-x86_64-none/lib/libomp.dylib' (no such file), '/usr/local/lib/libomp.dylib' (no such file), '/usr/lib/libomp.dylib' (no such file, not in dyld cache)
+2026-04-23 11:11:08,823:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:08,969:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-04-23 11:11:09,035:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2026-04-23 11:11:09,037:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:09,041:WARNING:LightGBM is unavailable and will be skipped: dlopen(/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib, 0x0006): Library not loaded: @rpath/libomp.dylib
+  Referenced from: <8FC36893-94B8-343C-9D9F-4CCBFE81B89B> /Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib
+  Reason: tried: '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/Users/alhanoufalmogri/.local/share/uv/python/cpython-3.11.15-macos-x86_64-none/lib/libomp.dylib' (no such file), '/usr/local/lib/libomp.dylib' (no such file), '/usr/lib/libomp.dylib' (no such file, not in dyld cache)
+2026-04-23 11:11:09,041:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:09,042:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2026-04-23 11:11:09,155:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-04-23 11:11:09,219:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:09,223:WARNING:LightGBM is unavailable and will be skipped: dlopen(/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib, 0x0006): Library not loaded: @rpath/libomp.dylib
+  Referenced from: <8FC36893-94B8-343C-9D9F-4CCBFE81B89B> /Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib
+  Reason: tried: '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/Users/alhanoufalmogri/.local/share/uv/python/cpython-3.11.15-macos-x86_64-none/lib/libomp.dylib' (no such file), '/usr/local/lib/libomp.dylib' (no such file), '/usr/lib/libomp.dylib' (no such file, not in dyld cache)
+2026-04-23 11:11:09,223:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:09,320:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2026-04-23 11:11:09,382:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:09,387:WARNING:LightGBM is unavailable and will be skipped: dlopen(/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib, 0x0006): Library not loaded: @rpath/libomp.dylib
+  Referenced from: <8FC36893-94B8-343C-9D9F-4CCBFE81B89B> /Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib
+  Reason: tried: '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/Users/alhanoufalmogri/.local/share/uv/python/cpython-3.11.15-macos-x86_64-none/lib/libomp.dylib' (no such file), '/usr/local/lib/libomp.dylib' (no such file), '/usr/lib/libomp.dylib' (no such file, not in dyld cache)
+2026-04-23 11:11:09,387:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:09,387:INFO:Engine successfully changes for model 'svm' to 'sklearn'.
+2026-04-23 11:11:09,627:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:09,632:WARNING:LightGBM is unavailable and will be skipped: dlopen(/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib, 0x0006): Library not loaded: @rpath/libomp.dylib
+  Referenced from: <8FC36893-94B8-343C-9D9F-4CCBFE81B89B> /Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib
+  Reason: tried: '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/Users/alhanoufalmogri/.local/share/uv/python/cpython-3.11.15-macos-x86_64-none/lib/libomp.dylib' (no such file), '/usr/local/lib/libomp.dylib' (no such file), '/usr/lib/libomp.dylib' (no such file, not in dyld cache)
+2026-04-23 11:11:09,633:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:09,814:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:09,829:WARNING:LightGBM is unavailable and will be skipped: dlopen(/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib, 0x0006): Library not loaded: @rpath/libomp.dylib
+  Referenced from: <8FC36893-94B8-343C-9D9F-4CCBFE81B89B> /Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib
+  Reason: tried: '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/Users/alhanoufalmogri/.local/share/uv/python/cpython-3.11.15-macos-x86_64-none/lib/libomp.dylib' (no such file), '/usr/local/lib/libomp.dylib' (no such file), '/usr/lib/libomp.dylib' (no such file, not in dyld cache)
+2026-04-23 11:11:09,829:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:09,835:INFO:Preparing preprocessing pipeline...
+2026-04-23 11:11:09,835:INFO:Set up simple imputation.
+2026-04-23 11:11:09,846:INFO:Set up encoding of categorical features.
+2026-04-23 11:11:09,971:INFO:Finished creating preprocessing pipeline.
+2026-04-23 11:11:09,981:INFO:Pipeline: Pipeline(memory=FastMemory(location=/var/folders/tp/yr6_9jgn68510mgmglpq2m2r0000gn/T/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['longitude', 'latitude',
+                                             'housing_median_age',
+                                             'total_rooms', 'total_bedrooms',
+                                             'population', 'households',
+                                             'median_income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['ocean_proximity'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['ocean_proximity'],
+                                    transformer=OneHotEncoder(cols=['ocean_proximity'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True)))])
+2026-04-23 11:11:09,982:INFO:Creating final display dataframe.
+2026-04-23 11:11:10,298:INFO:Setup _display_container:                     Description               Value
+0                    Session id                  42
+1                        Target  median_house_value
+2                   Target type          Regression
+3           Original data shape         (20640, 10)
+4        Transformed data shape         (20640, 14)
+5   Transformed train set shape         (14447, 14)
+6    Transformed test set shape          (6193, 14)
+7              Numeric features                   8
+8          Categorical features                   1
+9      Rows with missing values                1.0%
+10                   Preprocess                True
+11              Imputation type              simple
+12           Numeric imputation                mean
+13       Categorical imputation                mode
+14     Maximum one-hot encoding                  25
+15              Encoding method                None
+16               Fold Generator               KFold
+17                  Fold Number                  10
+18                     CPU Jobs                  -1
+19                      Use GPU               False
+20               Log Experiment               False
+21              Experiment Name    reg-default-name
+22                          USI                5bf2
+2026-04-23 11:11:10,591:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:10,595:WARNING:LightGBM is unavailable and will be skipped: dlopen(/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib, 0x0006): Library not loaded: @rpath/libomp.dylib
+  Referenced from: <8FC36893-94B8-343C-9D9F-4CCBFE81B89B> /Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib
+  Reason: tried: '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/Users/alhanoufalmogri/.local/share/uv/python/cpython-3.11.15-macos-x86_64-none/lib/libomp.dylib' (no such file), '/usr/local/lib/libomp.dylib' (no such file), '/usr/lib/libomp.dylib' (no such file, not in dyld cache)
+2026-04-23 11:11:10,595:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:10,756:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:10,760:WARNING:LightGBM is unavailable and will be skipped: dlopen(/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib, 0x0006): Library not loaded: @rpath/libomp.dylib
+  Referenced from: <8FC36893-94B8-343C-9D9F-4CCBFE81B89B> /Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/lightgbm/lib/lib_lightgbm.dylib
+  Reason: tried: '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/usr/local/opt/libomp/lib/libomp.dylib' (no such file), '/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libomp/lib/libomp.dylib' (no such file), '/opt/local/lib/libomp/libomp.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/local/lib/libomp/libomp.dylib' (no such file), '/Users/alhanoufalmogri/.local/share/uv/python/cpython-3.11.15-macos-x86_64-none/lib/libomp.dylib' (no such file), '/usr/local/lib/libomp.dylib' (no such file), '/usr/lib/libomp.dylib' (no such file, not in dyld cache)
+2026-04-23 11:11:10,760:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2026-04-23 11:11:10,761:INFO:setup() successfully completed in 5.12s...............
+2026-04-23 11:11:10,761:INFO:Initializing compare_models()
+2026-04-23 11:11:10,761:INFO:compare_models(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, include=None, exclude=None, fold=None, round=4, cross_validation=True, sort=R2, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, 'include': None, 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'R2', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.regression.oop.RegressionExperiment'>})
+2026-04-23 11:11:10,761:INFO:Checking exceptions
+2026-04-23 11:11:10,767:INFO:Preparing display monitor
+2026-04-23 11:11:10,896:INFO:Initializing Linear Regression
+2026-04-23 11:11:10,897:INFO:Total runtime is 1.806815465291341e-05 minutes
+2026-04-23 11:11:10,915:INFO:SubProcess create_model() called ==================================
+2026-04-23 11:11:10,916:INFO:Initializing create_model()
+2026-04-23 11:11:10,916:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=lr, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x13bfac310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-04-23 11:11:10,917:INFO:Checking exceptions
+2026-04-23 11:11:10,917:INFO:Importing libraries
+2026-04-23 11:11:10,917:INFO:Copying training dataset
+2026-04-23 11:11:11,065:INFO:Defining folds
+2026-04-23 11:11:11,065:INFO:Declaring metric variables
+2026-04-23 11:11:11,094:INFO:Importing untrained model
+2026-04-23 11:11:11,105:INFO:Linear Regression Imported successfully
+2026-04-23 11:11:11,126:INFO:Starting cross validation
+2026-04-23 11:11:11,137:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-04-23 11:11:25,327:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-04-23 11:11:25,327:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-04-23 11:11:25,327:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-04-23 11:11:25,327:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-04-23 11:11:25,387:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-04-23 11:11:25,405:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-04-23 11:11:25,734:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-04-23 11:11:25,769:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-04-23 11:11:25,785:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-04-23 11:11:25,909:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-04-23 11:11:26,188:INFO:Calculating mean and std
+2026-04-23 11:11:26,196:INFO:Creating metrics dataframe
+2026-04-23 11:11:26,206:INFO:Uploading results into container
+2026-04-23 11:11:26,210:INFO:Uploading model into container now
+2026-04-23 11:11:26,212:INFO:_master_model_container: 1
+2026-04-23 11:11:26,212:INFO:_display_container: 2
+2026-04-23 11:11:26,213:INFO:LinearRegression(n_jobs=-1)
+2026-04-23 11:11:26,214:INFO:create_model() successfully completed......................................
+2026-04-23 11:11:26,461:INFO:SubProcess create_model() end ==================================
+2026-04-23 11:11:26,462:INFO:Creating metrics dataframe
+2026-04-23 11:11:26,470:INFO:Initializing Lasso Regression
+2026-04-23 11:11:26,471:INFO:Total runtime is 0.25957503318786623 minutes
+2026-04-23 11:11:26,478:INFO:SubProcess create_model() called ==================================
+2026-04-23 11:11:26,479:INFO:Initializing create_model()
+2026-04-23 11:11:26,479:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=lasso, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x13bfac310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-04-23 11:11:26,479:INFO:Checking exceptions
+2026-04-23 11:11:26,479:INFO:Importing libraries
+2026-04-23 11:11:26,480:INFO:Copying training dataset
+2026-04-23 11:11:26,621:INFO:Defining folds
+2026-04-23 11:11:26,621:INFO:Declaring metric variables
+2026-04-23 11:11:26,634:INFO:Importing untrained model
+2026-04-23 11:11:26,642:INFO:Lasso Regression Imported successfully
+2026-04-23 11:11:26,666:INFO:Starting cross validation
+2026-04-23 11:11:26,670:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-04-23 11:11:28,036:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:678: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.681e+12, tolerance: 1.755e+10
+  model = cd_fast.enet_coordinate_descent(
+
+2026-04-23 11:11:28,068:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:678: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.699e+12, tolerance: 1.751e+10
+  model = cd_fast.enet_coordinate_descent(
+
+2026-04-23 11:11:28,114:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:678: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.677e+12, tolerance: 1.726e+10
+  model = cd_fast.enet_coordinate_descent(
+
+2026-04-23 11:11:28,152:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:678: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.704e+12, tolerance: 1.752e+10
+  model = cd_fast.enet_coordinate_descent(
+
+2026-04-23 11:11:28,162:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:678: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.643e+12, tolerance: 1.746e+10
+  model = cd_fast.enet_coordinate_descent(
+
+2026-04-23 11:11:28,164:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:678: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.708e+12, tolerance: 1.742e+10
+  model = cd_fast.enet_coordinate_descent(
+
+2026-04-23 11:11:28,201:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:678: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.672e+12, tolerance: 1.739e+10
+  model = cd_fast.enet_coordinate_descent(
+
+2026-04-23 11:11:28,213:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:678: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.584e+12, tolerance: 1.739e+10
+  model = cd_fast.enet_coordinate_descent(
+
+2026-04-23 11:11:32,366:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-04-23 11:11:32,366:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-04-23 11:11:32,751:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:678: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.929e+12, tolerance: 1.733e+10
+  model = cd_fast.enet_coordinate_descent(
+
+2026-04-23 11:11:32,753:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_coordinate_descent.py:678: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 3.685e+12, tolerance: 1.737e+10
+  model = cd_fast.enet_coordinate_descent(
+
+2026-04-23 11:11:32,789:INFO:Calculating mean and std
+2026-04-23 11:11:32,791:INFO:Creating metrics dataframe
+2026-04-23 11:11:32,794:INFO:Uploading results into container
+2026-04-23 11:11:32,795:INFO:Uploading model into container now
+2026-04-23 11:11:32,796:INFO:_master_model_container: 2
+2026-04-23 11:11:32,796:INFO:_display_container: 2
+2026-04-23 11:11:32,797:INFO:Lasso(random_state=42)
+2026-04-23 11:11:32,797:INFO:create_model() successfully completed......................................
+2026-04-23 11:11:32,953:INFO:SubProcess create_model() end ==================================
+2026-04-23 11:11:32,954:INFO:Creating metrics dataframe
+2026-04-23 11:11:32,966:INFO:Initializing Ridge Regression
+2026-04-23 11:11:32,967:INFO:Total runtime is 0.3678511182467143 minutes
+2026-04-23 11:11:32,978:INFO:SubProcess create_model() called ==================================
+2026-04-23 11:11:32,979:INFO:Initializing create_model()
+2026-04-23 11:11:32,979:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=ridge, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x13bfac310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-04-23 11:11:32,980:INFO:Checking exceptions
+2026-04-23 11:11:32,980:INFO:Importing libraries
+2026-04-23 11:11:32,980:INFO:Copying training dataset
+2026-04-23 11:11:33,012:INFO:Defining folds
+2026-04-23 11:11:33,012:INFO:Declaring metric variables
+2026-04-23 11:11:33,020:INFO:Importing untrained model
+2026-04-23 11:11:33,052:INFO:Ridge Regression Imported successfully
+2026-04-23 11:11:33,066:INFO:Starting cross validation
+2026-04-23 11:11:33,069:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-04-23 11:11:33,491:INFO:Calculating mean and std
+2026-04-23 11:11:33,493:INFO:Creating metrics dataframe
+2026-04-23 11:11:33,501:INFO:Uploading results into container
+2026-04-23 11:11:33,502:INFO:Uploading model into container now
+2026-04-23 11:11:33,503:INFO:_master_model_container: 3
+2026-04-23 11:11:33,503:INFO:_display_container: 2
+2026-04-23 11:11:33,504:INFO:Ridge(random_state=42)
+2026-04-23 11:11:33,504:INFO:create_model() successfully completed......................................
+2026-04-23 11:11:33,688:INFO:SubProcess create_model() end ==================================
+2026-04-23 11:11:33,688:INFO:Creating metrics dataframe
+2026-04-23 11:11:33,701:INFO:Initializing Elastic Net
+2026-04-23 11:11:33,701:INFO:Total runtime is 0.3800862153371175 minutes
+2026-04-23 11:11:33,711:INFO:SubProcess create_model() called ==================================
+2026-04-23 11:11:33,711:INFO:Initializing create_model()
+2026-04-23 11:11:33,711:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=en, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x13bfac310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-04-23 11:11:33,711:INFO:Checking exceptions
+2026-04-23 11:11:33,711:INFO:Importing libraries
+2026-04-23 11:11:33,711:INFO:Copying training dataset
+2026-04-23 11:11:33,728:INFO:Defining folds
+2026-04-23 11:11:33,728:INFO:Declaring metric variables
+2026-04-23 11:11:33,737:INFO:Importing untrained model
+2026-04-23 11:11:33,751:INFO:Elastic Net Imported successfully
+2026-04-23 11:11:33,769:INFO:Starting cross validation
+2026-04-23 11:11:33,773:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-04-23 11:11:35,122:INFO:Calculating mean and std
+2026-04-23 11:11:35,124:INFO:Creating metrics dataframe
+2026-04-23 11:11:35,127:INFO:Uploading results into container
+2026-04-23 11:11:35,127:INFO:Uploading model into container now
+2026-04-23 11:11:35,128:INFO:_master_model_container: 4
+2026-04-23 11:11:35,128:INFO:_display_container: 2
+2026-04-23 11:11:35,128:INFO:ElasticNet(random_state=42)
+2026-04-23 11:11:35,128:INFO:create_model() successfully completed......................................
+2026-04-23 11:11:35,411:INFO:SubProcess create_model() end ==================================
+2026-04-23 11:11:35,413:INFO:Creating metrics dataframe
+2026-04-23 11:11:35,433:INFO:Initializing Least Angle Regression
+2026-04-23 11:11:35,433:INFO:Total runtime is 0.408944567044576 minutes
+2026-04-23 11:11:35,446:INFO:SubProcess create_model() called ==================================
+2026-04-23 11:11:35,447:INFO:Initializing create_model()
+2026-04-23 11:11:35,447:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=lar, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x13bfac310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-04-23 11:11:35,447:INFO:Checking exceptions
+2026-04-23 11:11:35,447:INFO:Importing libraries
+2026-04-23 11:11:35,448:INFO:Copying training dataset
+2026-04-23 11:11:35,479:INFO:Defining folds
+2026-04-23 11:11:35,479:INFO:Declaring metric variables
+2026-04-23 11:11:35,493:INFO:Importing untrained model
+2026-04-23 11:11:35,517:INFO:Least Angle Regression Imported successfully
+2026-04-23 11:11:35,558:INFO:Starting cross validation
+2026-04-23 11:11:35,560:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-04-23 11:11:36,118:INFO:Calculating mean and std
+2026-04-23 11:11:36,122:INFO:Creating metrics dataframe
+2026-04-23 11:11:36,128:INFO:Uploading results into container
+2026-04-23 11:11:36,130:INFO:Uploading model into container now
+2026-04-23 11:11:36,132:INFO:_master_model_container: 5
+2026-04-23 11:11:36,132:INFO:_display_container: 2
+2026-04-23 11:11:36,133:INFO:Lars(random_state=42)
+2026-04-23 11:11:36,134:INFO:create_model() successfully completed......................................
+2026-04-23 11:11:36,278:INFO:SubProcess create_model() end ==================================
+2026-04-23 11:11:36,278:INFO:Creating metrics dataframe
+2026-04-23 11:11:36,292:INFO:Initializing Lasso Least Angle Regression
+2026-04-23 11:11:36,292:INFO:Total runtime is 0.4232680837313334 minutes
+2026-04-23 11:11:36,302:INFO:SubProcess create_model() called ==================================
+2026-04-23 11:11:36,303:INFO:Initializing create_model()
+2026-04-23 11:11:36,303:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=llar, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x13bfac310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-04-23 11:11:36,303:INFO:Checking exceptions
+2026-04-23 11:11:36,304:INFO:Importing libraries
+2026-04-23 11:11:36,305:INFO:Copying training dataset
+2026-04-23 11:11:36,325:INFO:Defining folds
+2026-04-23 11:11:36,325:INFO:Declaring metric variables
+2026-04-23 11:11:36,336:INFO:Importing untrained model
+2026-04-23 11:11:36,350:INFO:Lasso Least Angle Regression Imported successfully
+2026-04-23 11:11:36,494:INFO:Starting cross validation
+2026-04-23 11:11:36,498:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-04-23 11:11:36,994:INFO:Calculating mean and std
+2026-04-23 11:11:36,997:INFO:Creating metrics dataframe
+2026-04-23 11:11:37,001:INFO:Uploading results into container
+2026-04-23 11:11:37,003:INFO:Uploading model into container now
+2026-04-23 11:11:37,004:INFO:_master_model_container: 6
+2026-04-23 11:11:37,005:INFO:_display_container: 2
+2026-04-23 11:11:37,005:INFO:LassoLars(random_state=42)
+2026-04-23 11:11:37,006:INFO:create_model() successfully completed......................................
+2026-04-23 11:11:37,272:INFO:SubProcess create_model() end ==================================
+2026-04-23 11:11:37,272:INFO:Creating metrics dataframe
+2026-04-23 11:11:37,290:INFO:Initializing Orthogonal Matching Pursuit
+2026-04-23 11:11:37,290:INFO:Total runtime is 0.4398953835169474 minutes
+2026-04-23 11:11:37,305:INFO:SubProcess create_model() called ==================================
+2026-04-23 11:11:37,306:INFO:Initializing create_model()
+2026-04-23 11:11:37,307:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=omp, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x13bfac310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-04-23 11:11:37,307:INFO:Checking exceptions
+2026-04-23 11:11:37,308:INFO:Importing libraries
+2026-04-23 11:11:37,308:INFO:Copying training dataset
+2026-04-23 11:11:37,339:INFO:Defining folds
+2026-04-23 11:11:37,339:INFO:Declaring metric variables
+2026-04-23 11:11:37,347:INFO:Importing untrained model
+2026-04-23 11:11:37,362:INFO:Orthogonal Matching Pursuit Imported successfully
+2026-04-23 11:11:37,379:INFO:Starting cross validation
+2026-04-23 11:11:37,382:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-04-23 11:11:37,810:INFO:Calculating mean and std
+2026-04-23 11:11:37,811:INFO:Creating metrics dataframe
+2026-04-23 11:11:37,815:INFO:Uploading results into container
+2026-04-23 11:11:37,817:INFO:Uploading model into container now
+2026-04-23 11:11:37,818:INFO:_master_model_container: 7
+2026-04-23 11:11:37,819:INFO:_display_container: 2
+2026-04-23 11:11:37,820:INFO:OrthogonalMatchingPursuit()
+2026-04-23 11:11:37,820:INFO:create_model() successfully completed......................................
+2026-04-23 11:11:38,028:INFO:SubProcess create_model() end ==================================
+2026-04-23 11:11:38,029:INFO:Creating metrics dataframe
+2026-04-23 11:11:38,064:INFO:Initializing Bayesian Ridge
+2026-04-23 11:11:38,065:INFO:Total runtime is 0.4528057336807251 minutes
+2026-04-23 11:11:38,074:INFO:SubProcess create_model() called ==================================
+2026-04-23 11:11:38,075:INFO:Initializing create_model()
+2026-04-23 11:11:38,075:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=br, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x13bfac310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-04-23 11:11:38,075:INFO:Checking exceptions
+2026-04-23 11:11:38,075:INFO:Importing libraries
+2026-04-23 11:11:38,075:INFO:Copying training dataset
+2026-04-23 11:11:38,117:INFO:Defining folds
+2026-04-23 11:11:38,117:INFO:Declaring metric variables
+2026-04-23 11:11:38,136:INFO:Importing untrained model
+2026-04-23 11:11:38,157:INFO:Bayesian Ridge Imported successfully
+2026-04-23 11:11:38,174:INFO:Starting cross validation
+2026-04-23 11:11:38,176:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-04-23 11:11:38,670:INFO:Calculating mean and std
+2026-04-23 11:11:38,672:INFO:Creating metrics dataframe
+2026-04-23 11:11:38,675:INFO:Uploading results into container
+2026-04-23 11:11:38,676:INFO:Uploading model into container now
+2026-04-23 11:11:38,677:INFO:_master_model_container: 8
+2026-04-23 11:11:38,677:INFO:_display_container: 2
+2026-04-23 11:11:38,678:INFO:BayesianRidge()
+2026-04-23 11:11:38,678:INFO:create_model() successfully completed......................................
+2026-04-23 11:11:38,809:INFO:SubProcess create_model() end ==================================
+2026-04-23 11:11:38,810:INFO:Creating metrics dataframe
+2026-04-23 11:11:38,821:INFO:Initializing Passive Aggressive Regressor
+2026-04-23 11:11:38,821:INFO:Total runtime is 0.46541459957758585 minutes
+2026-04-23 11:11:38,830:INFO:SubProcess create_model() called ==================================
+2026-04-23 11:11:38,830:INFO:Initializing create_model()
+2026-04-23 11:11:38,831:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=par, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x13bfac310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-04-23 11:11:38,831:INFO:Checking exceptions
+2026-04-23 11:11:38,831:INFO:Importing libraries
+2026-04-23 11:11:38,831:INFO:Copying training dataset
+2026-04-23 11:11:38,851:INFO:Defining folds
+2026-04-23 11:11:38,851:INFO:Declaring metric variables
+2026-04-23 11:11:38,860:INFO:Importing untrained model
+2026-04-23 11:11:38,866:INFO:Passive Aggressive Regressor Imported successfully
+2026-04-23 11:11:38,886:INFO:Starting cross validation
+2026-04-23 11:11:38,888:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-04-23 11:11:39,495:INFO:Calculating mean and std
+2026-04-23 11:11:39,496:INFO:Creating metrics dataframe
+2026-04-23 11:11:39,500:INFO:Uploading results into container
+2026-04-23 11:11:39,501:INFO:Uploading model into container now
+2026-04-23 11:11:39,501:INFO:_master_model_container: 9
+2026-04-23 11:11:39,502:INFO:_display_container: 2
+2026-04-23 11:11:39,502:INFO:PassiveAggressiveRegressor(random_state=42)
+2026-04-23 11:11:39,503:INFO:create_model() successfully completed......................................
+2026-04-23 11:11:39,767:INFO:SubProcess create_model() end ==================================
+2026-04-23 11:11:39,768:INFO:Creating metrics dataframe
+2026-04-23 11:11:39,778:INFO:Initializing Huber Regressor
+2026-04-23 11:11:39,779:INFO:Total runtime is 0.48137123187383013 minutes
+2026-04-23 11:11:39,784:INFO:SubProcess create_model() called ==================================
+2026-04-23 11:11:39,784:INFO:Initializing create_model()
+2026-04-23 11:11:39,784:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=huber, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x13bfac310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-04-23 11:11:39,785:INFO:Checking exceptions
+2026-04-23 11:11:39,785:INFO:Importing libraries
+2026-04-23 11:11:39,785:INFO:Copying training dataset
+2026-04-23 11:11:39,802:INFO:Defining folds
+2026-04-23 11:11:39,802:INFO:Declaring metric variables
+2026-04-23 11:11:39,811:INFO:Importing untrained model
+2026-04-23 11:11:39,820:INFO:Huber Regressor Imported successfully
+2026-04-23 11:11:39,834:INFO:Starting cross validation
+2026-04-23 11:11:39,836:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-04-23 11:11:40,737:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_huber.py:342: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2026-04-23 11:11:40,842:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_huber.py:342: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2026-04-23 11:11:40,888:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_huber.py:342: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2026-04-23 11:11:40,894:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_huber.py:342: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2026-04-23 11:11:40,903:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_huber.py:342: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2026-04-23 11:11:40,936:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_huber.py:342: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2026-04-23 11:11:40,936:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_huber.py:342: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2026-04-23 11:11:40,940:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_huber.py:342: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2026-04-23 11:11:40,945:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_huber.py:342: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2026-04-23 11:11:40,960:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/linear_model/_huber.py:342: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+  self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+2026-04-23 11:11:41,001:INFO:Calculating mean and std
+2026-04-23 11:11:41,002:INFO:Creating metrics dataframe
+2026-04-23 11:11:41,004:INFO:Uploading results into container
+2026-04-23 11:11:41,005:INFO:Uploading model into container now
+2026-04-23 11:11:41,005:INFO:_master_model_container: 10
+2026-04-23 11:11:41,005:INFO:_display_container: 2
+2026-04-23 11:11:41,006:INFO:HuberRegressor()
+2026-04-23 11:11:41,006:INFO:create_model() successfully completed......................................
+2026-04-23 11:11:41,178:INFO:SubProcess create_model() end ==================================
+2026-04-23 11:11:41,178:INFO:Creating metrics dataframe
+2026-04-23 11:11:41,190:INFO:Initializing K Neighbors Regressor
+2026-04-23 11:11:41,190:INFO:Total runtime is 0.5048946340878804 minutes
+2026-04-23 11:11:41,198:INFO:SubProcess create_model() called ==================================
+2026-04-23 11:11:41,199:INFO:Initializing create_model()
+2026-04-23 11:11:41,199:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=knn, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x13bfac310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-04-23 11:11:41,199:INFO:Checking exceptions
+2026-04-23 11:11:41,199:INFO:Importing libraries
+2026-04-23 11:11:41,199:INFO:Copying training dataset
+2026-04-23 11:11:41,216:INFO:Defining folds
+2026-04-23 11:11:41,216:INFO:Declaring metric variables
+2026-04-23 11:11:41,222:INFO:Importing untrained model
+2026-04-23 11:11:41,233:INFO:K Neighbors Regressor Imported successfully
+2026-04-23 11:11:41,251:INFO:Starting cross validation
+2026-04-23 11:11:41,255:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-04-23 11:11:41,722:INFO:Calculating mean and std
+2026-04-23 11:11:41,723:INFO:Creating metrics dataframe
+2026-04-23 11:11:41,725:INFO:Uploading results into container
+2026-04-23 11:11:41,726:INFO:Uploading model into container now
+2026-04-23 11:11:41,726:INFO:_master_model_container: 11
+2026-04-23 11:11:41,727:INFO:_display_container: 2
+2026-04-23 11:11:41,727:INFO:KNeighborsRegressor(n_jobs=-1)
+2026-04-23 11:11:41,727:INFO:create_model() successfully completed......................................
+2026-04-23 11:11:41,896:INFO:SubProcess create_model() end ==================================
+2026-04-23 11:11:41,896:INFO:Creating metrics dataframe
+2026-04-23 11:11:41,914:INFO:Initializing Decision Tree Regressor
+2026-04-23 11:11:41,914:INFO:Total runtime is 0.5169594327608743 minutes
+2026-04-23 11:11:41,921:INFO:SubProcess create_model() called ==================================
+2026-04-23 11:11:41,922:INFO:Initializing create_model()
+2026-04-23 11:11:41,922:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=dt, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x13bfac310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-04-23 11:11:41,922:INFO:Checking exceptions
+2026-04-23 11:11:41,923:INFO:Importing libraries
+2026-04-23 11:11:41,923:INFO:Copying training dataset
+2026-04-23 11:11:41,948:INFO:Defining folds
+2026-04-23 11:11:41,949:INFO:Declaring metric variables
+2026-04-23 11:11:41,960:INFO:Importing untrained model
+2026-04-23 11:11:41,966:INFO:Decision Tree Regressor Imported successfully
+2026-04-23 11:11:41,978:INFO:Starting cross validation
+2026-04-23 11:11:41,980:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-04-23 11:11:42,622:INFO:Calculating mean and std
+2026-04-23 11:11:42,623:INFO:Creating metrics dataframe
+2026-04-23 11:11:42,626:INFO:Uploading results into container
+2026-04-23 11:11:42,627:INFO:Uploading model into container now
+2026-04-23 11:11:42,628:INFO:_master_model_container: 12
+2026-04-23 11:11:42,628:INFO:_display_container: 2
+2026-04-23 11:11:42,628:INFO:DecisionTreeRegressor(random_state=42)
+2026-04-23 11:11:42,628:INFO:create_model() successfully completed......................................
+2026-04-23 11:11:42,822:INFO:SubProcess create_model() end ==================================
+2026-04-23 11:11:42,822:INFO:Creating metrics dataframe
+2026-04-23 11:11:42,833:INFO:Initializing Random Forest Regressor
+2026-04-23 11:11:42,834:INFO:Total runtime is 0.5322904189427693 minutes
+2026-04-23 11:11:42,840:INFO:SubProcess create_model() called ==================================
+2026-04-23 11:11:42,840:INFO:Initializing create_model()
+2026-04-23 11:11:42,840:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=rf, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x13bfac310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-04-23 11:11:42,841:INFO:Checking exceptions
+2026-04-23 11:11:42,841:INFO:Importing libraries
+2026-04-23 11:11:42,841:INFO:Copying training dataset
+2026-04-23 11:11:42,856:INFO:Defining folds
+2026-04-23 11:11:42,857:INFO:Declaring metric variables
+2026-04-23 11:11:42,865:INFO:Importing untrained model
+2026-04-23 11:11:42,874:INFO:Random Forest Regressor Imported successfully
+2026-04-23 11:11:42,886:INFO:Starting cross validation
+2026-04-23 11:11:42,887:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-04-23 11:11:59,213:INFO:Calculating mean and std
+2026-04-23 11:11:59,215:INFO:Creating metrics dataframe
+2026-04-23 11:11:59,217:INFO:Uploading results into container
+2026-04-23 11:11:59,218:INFO:Uploading model into container now
+2026-04-23 11:11:59,218:INFO:_master_model_container: 13
+2026-04-23 11:11:59,218:INFO:_display_container: 2
+2026-04-23 11:11:59,218:INFO:RandomForestRegressor(n_jobs=-1, random_state=42)
+2026-04-23 11:11:59,218:INFO:create_model() successfully completed......................................
+2026-04-23 11:11:59,324:INFO:SubProcess create_model() end ==================================
+2026-04-23 11:11:59,324:INFO:Creating metrics dataframe
+2026-04-23 11:11:59,336:INFO:Initializing Extra Trees Regressor
+2026-04-23 11:11:59,337:INFO:Total runtime is 0.8073398192723591 minutes
+2026-04-23 11:11:59,343:INFO:SubProcess create_model() called ==================================
+2026-04-23 11:11:59,344:INFO:Initializing create_model()
+2026-04-23 11:11:59,346:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=et, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x13bfac310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-04-23 11:11:59,346:INFO:Checking exceptions
+2026-04-23 11:11:59,346:INFO:Importing libraries
+2026-04-23 11:11:59,347:INFO:Copying training dataset
+2026-04-23 11:11:59,367:INFO:Defining folds
+2026-04-23 11:11:59,367:INFO:Declaring metric variables
+2026-04-23 11:11:59,374:INFO:Importing untrained model
+2026-04-23 11:11:59,382:INFO:Extra Trees Regressor Imported successfully
+2026-04-23 11:11:59,397:INFO:Starting cross validation
+2026-04-23 11:11:59,400:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-04-23 11:12:08,369:INFO:Calculating mean and std
+2026-04-23 11:12:08,371:INFO:Creating metrics dataframe
+2026-04-23 11:12:08,375:INFO:Uploading results into container
+2026-04-23 11:12:08,376:INFO:Uploading model into container now
+2026-04-23 11:12:08,376:INFO:_master_model_container: 14
+2026-04-23 11:12:08,376:INFO:_display_container: 2
+2026-04-23 11:12:08,377:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=42)
+2026-04-23 11:12:08,378:INFO:create_model() successfully completed......................................
+2026-04-23 11:12:08,505:INFO:SubProcess create_model() end ==================================
+2026-04-23 11:12:08,506:INFO:Creating metrics dataframe
+2026-04-23 11:12:08,521:INFO:Initializing AdaBoost Regressor
+2026-04-23 11:12:08,521:INFO:Total runtime is 0.9604190150896708 minutes
+2026-04-23 11:12:08,528:INFO:SubProcess create_model() called ==================================
+2026-04-23 11:12:08,528:INFO:Initializing create_model()
+2026-04-23 11:12:08,529:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=ada, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x13bfac310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-04-23 11:12:08,533:INFO:Checking exceptions
+2026-04-23 11:12:08,534:INFO:Importing libraries
+2026-04-23 11:12:08,534:INFO:Copying training dataset
+2026-04-23 11:12:08,559:INFO:Defining folds
+2026-04-23 11:12:08,559:INFO:Declaring metric variables
+2026-04-23 11:12:08,568:INFO:Importing untrained model
+2026-04-23 11:12:08,577:INFO:AdaBoost Regressor Imported successfully
+2026-04-23 11:12:08,593:INFO:Starting cross validation
+2026-04-23 11:12:08,597:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-04-23 11:12:11,442:INFO:Calculating mean and std
+2026-04-23 11:12:11,443:INFO:Creating metrics dataframe
+2026-04-23 11:12:11,447:INFO:Uploading results into container
+2026-04-23 11:12:11,447:INFO:Uploading model into container now
+2026-04-23 11:12:11,449:INFO:_master_model_container: 15
+2026-04-23 11:12:11,450:INFO:_display_container: 2
+2026-04-23 11:12:11,450:INFO:AdaBoostRegressor(random_state=42)
+2026-04-23 11:12:11,450:INFO:create_model() successfully completed......................................
+2026-04-23 11:12:11,574:INFO:SubProcess create_model() end ==================================
+2026-04-23 11:12:11,574:INFO:Creating metrics dataframe
+2026-04-23 11:12:11,590:INFO:Initializing Gradient Boosting Regressor
+2026-04-23 11:12:11,591:INFO:Total runtime is 1.0115737517674763 minutes
+2026-04-23 11:12:11,706:INFO:SubProcess create_model() called ==================================
+2026-04-23 11:12:11,706:INFO:Initializing create_model()
+2026-04-23 11:12:11,707:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=gbr, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x13bfac310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-04-23 11:12:11,707:INFO:Checking exceptions
+2026-04-23 11:12:11,707:INFO:Importing libraries
+2026-04-23 11:12:11,707:INFO:Copying training dataset
+2026-04-23 11:12:11,747:INFO:Defining folds
+2026-04-23 11:12:11,747:INFO:Declaring metric variables
+2026-04-23 11:12:11,760:INFO:Importing untrained model
+2026-04-23 11:12:11,773:INFO:Gradient Boosting Regressor Imported successfully
+2026-04-23 11:12:11,795:INFO:Starting cross validation
+2026-04-23 11:12:11,799:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-04-23 11:12:16,438:INFO:Calculating mean and std
+2026-04-23 11:12:16,440:INFO:Creating metrics dataframe
+2026-04-23 11:12:16,442:INFO:Uploading results into container
+2026-04-23 11:12:16,443:INFO:Uploading model into container now
+2026-04-23 11:12:16,445:INFO:_master_model_container: 16
+2026-04-23 11:12:16,445:INFO:_display_container: 2
+2026-04-23 11:12:16,446:INFO:GradientBoostingRegressor(random_state=42)
+2026-04-23 11:12:16,446:INFO:create_model() successfully completed......................................
+2026-04-23 11:12:16,600:INFO:SubProcess create_model() end ==================================
+2026-04-23 11:12:16,600:INFO:Creating metrics dataframe
+2026-04-23 11:12:16,614:INFO:Initializing Dummy Regressor
+2026-04-23 11:12:16,615:INFO:Total runtime is 1.0953051010767618 minutes
+2026-04-23 11:12:16,620:INFO:SubProcess create_model() called ==================================
+2026-04-23 11:12:16,620:INFO:Initializing create_model()
+2026-04-23 11:12:16,620:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=dummy, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x13bfac310>, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-04-23 11:12:16,620:INFO:Checking exceptions
+2026-04-23 11:12:16,620:INFO:Importing libraries
+2026-04-23 11:12:16,620:INFO:Copying training dataset
+2026-04-23 11:12:16,683:INFO:Defining folds
+2026-04-23 11:12:16,683:INFO:Declaring metric variables
+2026-04-23 11:12:16,691:INFO:Importing untrained model
+2026-04-23 11:12:16,696:INFO:Dummy Regressor Imported successfully
+2026-04-23 11:12:16,713:INFO:Starting cross validation
+2026-04-23 11:12:16,715:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2026-04-23 11:12:17,100:INFO:Calculating mean and std
+2026-04-23 11:12:17,102:INFO:Creating metrics dataframe
+2026-04-23 11:12:17,107:INFO:Uploading results into container
+2026-04-23 11:12:17,108:INFO:Uploading model into container now
+2026-04-23 11:12:17,110:INFO:_master_model_container: 17
+2026-04-23 11:12:17,110:INFO:_display_container: 2
+2026-04-23 11:12:17,111:INFO:DummyRegressor()
+2026-04-23 11:12:17,111:INFO:create_model() successfully completed......................................
+2026-04-23 11:12:17,268:INFO:SubProcess create_model() end ==================================
+2026-04-23 11:12:17,268:INFO:Creating metrics dataframe
+2026-04-23 11:12:17,291:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/pycaret/internal/pycaret_experiment/supervised_experiment.py:339: FutureWarning: Styler.applymap has been deprecated. Use Styler.map instead.
+  .applymap(highlight_cols, subset=["TT (Sec)"])
+
+2026-04-23 11:12:17,313:INFO:Initializing create_model()
+2026-04-23 11:12:17,314:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=RandomForestRegressor(n_jobs=-1, random_state=42), fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, error_score=0.0, kwargs={})
+2026-04-23 11:12:17,314:INFO:Checking exceptions
+2026-04-23 11:12:17,316:INFO:Importing libraries
+2026-04-23 11:12:17,316:INFO:Copying training dataset
+2026-04-23 11:12:17,331:INFO:Defining folds
+2026-04-23 11:12:17,331:INFO:Declaring metric variables
+2026-04-23 11:12:17,331:INFO:Importing untrained model
+2026-04-23 11:12:17,331:INFO:Declaring custom model
+2026-04-23 11:12:17,332:INFO:Random Forest Regressor Imported successfully
+2026-04-23 11:12:17,333:INFO:Cross validation set to False
+2026-04-23 11:12:17,333:INFO:Fitting Model
+2026-04-23 11:12:19,730:INFO:RandomForestRegressor(n_jobs=-1, random_state=42)
+2026-04-23 11:12:19,730:INFO:create_model() successfully completed......................................
+2026-04-23 11:12:19,882:INFO:_master_model_container: 17
+2026-04-23 11:12:19,882:INFO:_display_container: 2
+2026-04-23 11:12:19,883:INFO:RandomForestRegressor(n_jobs=-1, random_state=42)
+2026-04-23 11:12:19,883:INFO:compare_models() successfully completed......................................
+2026-04-23 11:13:19,246:INFO:Initializing plot_model()
+2026-04-23 11:13:19,246:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=RandomForestRegressor(n_jobs=-1, random_state=42), plot=residuals, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2026-04-23 11:13:19,247:INFO:Checking exceptions
+2026-04-23 11:13:19,374:INFO:Preloading libraries
+2026-04-23 11:13:19,723:INFO:Copying training dataset
+2026-04-23 11:13:19,723:INFO:Plot type: residuals
+2026-04-23 11:13:20,321:INFO:Fitting Model
+2026-04-23 11:13:20,323:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/base.py:493: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+
+2026-04-23 11:13:20,855:INFO:Scoring test/hold-out set
+2026-04-23 11:13:24,171:INFO:Visual Rendered Successfully
+2026-04-23 11:13:24,383:INFO:plot_model() successfully completed......................................
+2026-04-23 11:13:24,398:INFO:Initializing plot_model()
+2026-04-23 11:13:24,398:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=RandomForestRegressor(n_jobs=-1, random_state=42), plot=feature, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2026-04-23 11:13:24,398:INFO:Checking exceptions
+2026-04-23 11:13:24,462:INFO:Preloading libraries
+2026-04-23 11:13:24,949:INFO:Copying training dataset
+2026-04-23 11:13:24,949:INFO:Plot type: feature
+2026-04-23 11:13:24,951:WARNING:No coef_ found. Trying feature_importances_
+2026-04-23 11:13:25,325:INFO:Visual Rendered Successfully
+2026-04-23 11:13:25,568:INFO:plot_model() successfully completed......................................
+2026-04-23 11:13:25,652:INFO:Initializing predict_model()
+2026-04-23 11:13:25,653:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=RandomForestRegressor(n_jobs=-1, random_state=42), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13c5577e0>)
+2026-04-23 11:13:25,653:INFO:Checking exceptions
+2026-04-23 11:13:25,653:INFO:Preloading libraries
+2026-04-23 11:13:25,969:WARNING:/Users/alhanoufalmogri/python-book/.venv-pycaret311/lib/python3.11/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+2026-04-23 11:13:32,318:INFO:Initializing predict_model()
+2026-04-23 11:13:32,318:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x13aff6410>, estimator=RandomForestRegressor(n_jobs=-1, random_state=42), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x13cbad1c0>)
+2026-04-23 11:13:32,318:INFO:Checking exceptions
+2026-04-23 11:13:32,319:INFO:Preloading libraries
+2026-04-23 11:13:32,323:INFO:Set up data.
+2026-04-23 11:13:32,328:INFO:Set up index.
+2026-04-23 11:13:32,697:INFO:Initializing save_model()
+2026-04-23 11:13:32,697:INFO:save_model(model=RandomForestRegressor(n_jobs=-1, random_state=42), model_name=california_housing_pycaret_model, prep_pipe_=Pipeline(memory=FastMemory(location=/var/folders/tp/yr6_9jgn68510mgmglpq2m2r0000gn/T/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['longitude', 'latitude',
+                                             'housing_median_age',
+                                             'total_rooms', 'total_bedrooms',
+                                             'population', 'households',
+                                             'median_income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['ocean_proximity'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['ocean_proximity'],
+                                    transformer=OneHotEncoder(cols=['ocean_proximity'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True)))]), verbose=True, use_case=MLUsecase.REGRESSION, kwargs={})
+2026-04-23 11:13:32,697:INFO:Adding model into prep_pipe
+2026-04-23 11:13:32,887:INFO:california_housing_pycaret_model.pkl saved in current working directory
+2026-04-23 11:13:32,898:INFO:Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['longitude', 'latitude',
+                                             'housing_median_age',
+                                             'total_rooms', 'total_bedrooms',
+                                             'population', 'households',
+                                             'median_income'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['ocean_proximity'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['ocean_proximity'],
+                                    transformer=OneHotEncoder(cols=['ocean_proximity'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model',
+                 RandomForestRegressor(n_jobs=-1, random_state=42))])
+2026-04-23 11:13:32,898:INFO:save_model() successfully completed......................................
